@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle apicloud-test",
+        "command": "apicloud-test:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "apicloud-test",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "apicloud-test:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
